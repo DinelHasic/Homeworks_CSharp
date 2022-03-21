@@ -46,7 +46,7 @@ namespace Homework3
 
                 foreach (Car car in cars)
                 {
-                    if (car.ModelToLower() == carModel.ToLower())
+                    if (car.Model.ToLower() == carModel.ToLower())
                     {
                         return car;
                         break;
